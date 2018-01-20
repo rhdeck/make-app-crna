@@ -1,0 +1,27 @@
+{
+  "name": "make-app-crna",
+  "version": "1.1.0",
+  "description": "create-react-native-app (expo) helper for make-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhdeck/make-app-crna.git"
+  },
+  "author": "Ray Deck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhdeck/make-app-crna/issues"
+  },
+  "homepage": "https://github.com/rhdeck/make-app-crna#readme",
+  "dependencies": {
+    "create-react-native-app": "*"
+  },
+  "makeApp": {
+    "initializer": {
+      "command": "create-react-native-app"
+    }
+  }
+}
